@@ -7,6 +7,6 @@ cd firefox_docker
 docker-compose up --build
 ```
 
-Browse to http://localhost:8080
+Browse to http://localhost:6080
 
 In case you want a diferent version of firefox, just edit the docker-compose accordingly and run the docker-compose up --build again
