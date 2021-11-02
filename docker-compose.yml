@@ -1,0 +1,9 @@
+version: '3'
+services:
+  firefox:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args: [ "FIREFOX_VERSION=20.0" ]
+    ports:
+      - 8080:80
